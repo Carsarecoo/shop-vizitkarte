@@ -75,8 +75,8 @@ $db = new mdb($db_user, $db_pswd, $db_base, $db_host);
 <h2>Twitter vai facebook</h2>
 </div>
 </div>
-<a href="http://www.htmltemplates.net">
-<img src="images/footnote.gif" class="copyright" alt="html templates"></a>
+<a href="auth.php">
+<img src="images/footnote.gif" class="copyright" alt="CP Pannel"></a>
 <div class="footer">&reg; David &nbsp; &copy; Copyright 2014.&nbsp; <a
  class="footer-link" target="_blank" href="auth.php">CP</a></div>
 </div>
