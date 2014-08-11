@@ -1,0 +1,29 @@
+body {
+	font-family:'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+	color: #000;
+	font-size: 12px
+}
+
+h1 {
+	font-size: 25px;
+}
+
+#news {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#news li {
+	padding: 10px 0;
+}
+
+#news li h2 {
+	font-size: 20px;
+	margin: 0;
+	padding: 10px 0 8px;
+}
+
+#news li .news-date {
+	color: #666;
+}

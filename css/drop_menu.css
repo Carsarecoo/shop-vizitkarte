@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+#menu {
+    width: 800px;
+    margin: 100px auto;
+    padding: 0;
+    background:  #222;
+    height: 30px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+#menu li {
+    list-style: none;
+    float: left;    
+    background:  #222;
+    position: relative;
+}
+
+#menu li:hover {
+    background:  #333;
+}
+
+#menu ul li a {
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    display: block;
+    color:  #bbb;
+}
+
+#menu ul ul {
+    visibility:  hidden;
+    position:  absolute;
+}
+
+#menu ul li:hover ul {
+	visibility: visible;
+}

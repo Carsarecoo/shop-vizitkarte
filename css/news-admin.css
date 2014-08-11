@@ -1,0 +1,54 @@
+body {
+	font-family:'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+	color: #222;
+	font-size: 14px;
+}
+
+fieldset {
+	border: 5px solid #eee;
+	padding: 10px 16px;
+	margin: 5px 0;
+}
+
+#wrapper {
+	width: 820px;
+	margin: 0 auto;
+}
+
+.form input, .form textarea {
+	border: 1px solid #777;
+	padding: 3px 5px;
+	width: 400px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.form textarea {
+	width: 600px;
+	height: 200px;
+	font-family: verdana;
+	font-size: 100%;
+	padding: 5px
+}
+
+.form input.button {
+	width: auto;
+}
+
+.success, .error {
+	padding: 10px 16px;
+	margin: 5px 0;
+}
+.success {
+	background: #dfd;
+	border: 5px solid #afa
+}
+.error {
+	background: #fdd;
+	border: 5px solid #faa
+}
+
+a {
+	color: #369;
+}
